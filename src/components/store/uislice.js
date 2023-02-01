@@ -5,11 +5,12 @@ import { createSlice } from "@reduxjs/toolkit";
 
  const uislice=  createSlice({
     name:'ui',
-    initialState:{cartIsVisible:false},
+    initialState:{cartIsVisible:false,test:0},
     reducers:{
         toggle(state){
             state.cartIsVisible=!state.cartIsVisible;
-        }
+        },
+        
     }
 });
 
